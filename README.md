@@ -22,7 +22,7 @@ Roles are per browser tab, so one browser can hold several roles in separate tab
 6. Insurer B tab: duplicate check with the same type, date and asset as a customer claim.
 7. Consensus Lab (PoW, PoS, PBFT) and Dashboard (bottleneck analysis).
 
-## Honest limits (say these in the viva)
+## Limitations
 - Single-process simulation, not a distributed network. Role keys are held by the server (Ed25519).
 - HMAC fingerprints are keyed hashing, NOT zero-knowledge proofs; anyone holding the shared key can test guesses.
 - Oracle agreement does not prove truth; sources must be independent.
